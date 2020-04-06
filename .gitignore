@@ -1,2 +1,5 @@
 *.zwc
 *.retry
+history
+.zinit/
+.zcompdump
