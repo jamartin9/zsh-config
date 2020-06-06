@@ -136,8 +136,8 @@ _guix_opts(){
     local help="
      Takes a list of manifest shortnames/commands
 
-     GUIX_MANIFEST_DIR will be set to ~/.guix-manifests/ when not set
-     GUIX_EXTRA_PROFILES will be set to ~/.guix-extra-profiles/ when not set
+     GUIX_MANIFEST_DIR will be set to ${XDG_CONFIG_DIR:-$HOME/.config}/guix-manifests when not set
+     GUIX_EXTRA_PROFILES will be set to ${XDG_DATA_HOME:-$HOME/.local/share}/guix-extra-profiles when not set
      GUIX_ACTIVE_MANIFESTS will be set to the profiles that are activated (in order)
      GUIX_PREV_ENV will be set to contents of env without profiles
      GUIX_PREV_ENV_shortname will be set to the contents of env with the profile
