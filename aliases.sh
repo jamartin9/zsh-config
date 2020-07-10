@@ -254,7 +254,7 @@ _zsh_zinit_plugins(){
     zinit light zsh-users/zsh-completions
 
     # auto suggest
-    zinit ice silent wait'0' atload'_zsh_autosuggest_start' cloneopts'-b develop --single-branch' depth'1'
+    zinit ice silent wait'0' atload'_zsh_autosuggest_start' cloneopts'-b develop --single-branch' depth'1' ver'develop'
     zinit light zsh-users/zsh-autosuggestions
 
     # syntax highlighting

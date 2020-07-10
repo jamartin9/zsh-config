@@ -31,3 +31,6 @@ _zsh_kbd_setup
 _zsh_zinit_setup
 _zsh_zinit_plugins
 _guix_opts default #guixProf default
+#guix package -d && guix pull -d
+#guix gc
+#guix pull
